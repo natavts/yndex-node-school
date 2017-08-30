@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Тестовое задание</title>
+    <style media="screen">
+      .error {
+        border: solid red 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="" id="myForm" action="mocks/progress.json">
+      <p>
+        <label for="fio">FIO:</label>
+        <input type="text" name="fio" value="">
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="text" name="email" value="">
+      </p>
+      <p>
+        <label for="phone">Phone</label>
+        <input type='tel' name="phone"
+         placeholder='+7(999)999-99-99'>
+      </p>
+      <p>
+        <button id="submitButton" type="button" onclick="MyForm.submit()">Submit</button>
+      </p>
+    </form>
+    <div id="resultContainer"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
